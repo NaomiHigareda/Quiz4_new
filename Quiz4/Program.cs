@@ -19,12 +19,9 @@ namespace Quiz4
         {
             //welcome user
             Console.WriteLine("Welcome to the Rolling Game!");
-
-            int rollnumber = Convert.ToInt32(Console.ReadLine());
-
             //prompt user to enter a number between 1 and 6
             Console.WriteLine("Enter a number between 1 and 6(or type 'Quit' to exit):3");
-
+            int rollnumber = Convert.ToInt32(Console.ReadLine());
             //let user know the dice is rolling 
             Console.WriteLine("Rolling the dice...");
             //method for dice to roll
